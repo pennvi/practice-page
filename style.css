@@ -4,6 +4,6 @@ body {
 
 #a {
     background-color: darkblue;
-    width: 90vw;
-    height: 90vh;
+    max-width: 90vw;
+    max-height: 90vh;
 }
