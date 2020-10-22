@@ -6,4 +6,6 @@ body {
     background-color: darkblue;
     max-width: 90vw;
     max-height: 90vh;
+    text-align: center;
+    display: contents;
 }
