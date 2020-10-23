@@ -2,10 +2,11 @@ body {
     background-color: crimson;
 }
 
-#a {
+#box-1 {
     background-color: darkblue;
     max-width: 90vw;
     max-height: 90vh;
     text-align: center;
-    display: block;
+    display: flex;
+    z-index: 1;
 }
