@@ -1,12 +1,9 @@
-body {
-    background-color: crimson;
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #DEAC8A;
+    width: 100%;
+    height: 2000px;
+
 }
 
-#box-1 {
-    background-color: darkblue;
-    max-width: 90vw;
-    max-height: 90vh;
-    text-align: center;
-    display: flex;
-    z-index: 1;
-}
