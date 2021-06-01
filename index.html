@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penn</title>
     <link href="style.css" rel="stylesheet">
+      <script>
+
+    function createCookie(name, value, days, path, domain, secure) {
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime * (days * 24 * 60 * 60 * 1000))
+            var expires = date.toUTCString;
+        }
+        else var expires = "";
+        cookieString = name + "=" + encodeURIComponent(value);
+        if(expires) cookieString += ";expires=" + encodeURIComponent(expires);
+        if(path) cookieString += ";path" + encodeURIComponent(path); 
+        if(domain) cookieString += ";doman" + encodeURIComponent(domain); 
+        if(secure) cookieString += "; secure"; 
+        document.cookie = cookieString;
+    }
+
+    createCookie("usesssssrname", "Sam Williams", 15, "file://", "file://", "Secure");
+    createCookie("bankaccount", "M&T Bank", 15, "/", "http://127.0.0.1:5500/?", "secure");
+    createCookie("favcolor", "green-ish", 15, "/", "http://127.0.0.1:5500/?", "secure");
+</script>
 </head>
 
 <body>
 
+    <img src="gtr.png" alt="guitar" id="guitar">
+
 <img src="pennpop.png" alt="hey mom! my name!" onmouseover="src='pennpop2.png'" onmouseout="src='pennpop.png'">
 
-<img src="gtr.png" alt="guitar">
+
     
 </body>
 </html>
