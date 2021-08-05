@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penn</title>
     <link href="style.css" rel="stylesheet">
-      <script>
+      <!-- <script>
 
     function createCookie(name, value, days, path, domain, secure) {
         if (days) {
@@ -41,16 +41,26 @@
 
 setCookie("peter", "pan", 180);
 
-</script>
+</script> -->
+
+<script src="myjs.js" async></script>
+
 </head>
 
 <body>
 
-    <img src="gtr.png" alt="guitar" id="guitar">
 
-<img src="pennpop.png" alt="hey mom! my name!" onmouseover="src='pennpop2.png'" onmouseout="src='pennpop.png'">
+<!-- <img src="pennpop.png" alt="hey mom! my name!" onmouseover="src='pennpop2.png'" onmouseout="src='pennpop.png'"> -->
 
+<input type="button" value="reset time" id="btn">
+<div id="clock"></div>
 
+<script async>
+
+  document.getElementById("btn").onclick = function() {
+    callAjax();
+  }
+</script>
     
 </body>
 </html>

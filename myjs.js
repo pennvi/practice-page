@@ -5,7 +5,7 @@ function getXMLHttpRequest() {
 }
 
 function callAjax() {
-    var url = "https://reqres.in/api/unknown";
+    var url = "clock.php";
     var myRand = parseInt(Math.random() * 999999);
     myReq.open("GET", url + "?rand=" + myRand, true);
     myReq.onreadystatechange = responseAjax;
